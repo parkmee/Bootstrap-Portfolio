@@ -1,0 +1,43 @@
+body {
+    background-image: url(../images/qbkls.png);
+}
+
+.container {
+    width: 960px;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    display: block;
+    width: 100%;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.bio {
+    display: inline;
+}
+
+.bio_pic {
+    float: left;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.bio_text {
+}
