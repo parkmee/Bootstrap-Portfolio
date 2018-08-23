@@ -1,11 +1,9 @@
 html {
-    position: relative;
-    min-height: 100%;
+    height: 100%;
 }
 
 body {
     background-image: url(../images/qbkls.png);
-    min-height: 100%;
 }
 
 header {
@@ -70,39 +68,48 @@ p {
     color: #4aaaa5;
 }
 
-.aboutMe {
+.page_title {
     width: 100%;
     padding-bottom: 20px;
     border-bottom-style: solid;
     border-bottom-color: #dddddd;
 }
 
-.bio {
+.main_content {
     display: inline;
     background-color: #ffffff;
-    padding: 20px 20px 0px 20px;
+    padding: 0px 20px 20px 20px;
+    width: 100%;
 }
 
 .bio_pic {
     float: left;
     height: 150px;
-    margin-right: 20px;
+    margin: 20px 20px 0px 0px;
 }
 
 .bio_text {
     padding-right: 20px;
+    margin: 20px 0px 0px 0px;
 }
 
-.clear {
-    clear: both;
+.footer_sticky {
+    height: 40px;
 }
 
 .footer {
     background-color: #666666;
-    height: 40px;
     border-top-style: solid;
     border-top-color: #4aaaa5;
     margin-top: 20px;
-    position: sticky;
-    bottom: 0;
+}
+
+input {
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 15px;
 }
